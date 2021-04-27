@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Magic Eight Ball</title>
+    <link rel="stylesheet" href="eightball.css">
+    <script src="eightball.js"></script>
+
+</head>
+
+<body>
+    <h1 id="center">Welcome to the Magic 8 Ball Site!</h1>
+    <div class="myDiv">
+        <form name="myform" action="" method="GET">Enter your name
+            <br>
+            <input type="text" name="inputbox" id="formArea" value="">
+            <br>
+            <p>What is your question?</p>
+            <input type="text" name="inputbox" id="questionArea" value="">
+            <br>
+            <br>
+            <input type="button" name="button" value="Shake" onClick="shakeBall()">
+        </form>
+        <p id="toFill"></p>
+    </div>
+</body>
+
+</html>
